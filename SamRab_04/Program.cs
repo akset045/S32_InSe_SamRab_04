@@ -4,13 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace IfBs_SamRab_04
+namespace SamRab_04
 {
     static class Program
     {
-        /// <summary>
-        /// Главная точка входа для приложения.
-        /// </summary>
+
         [STAThread]
         static void Main()
         {
