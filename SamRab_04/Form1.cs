@@ -12,7 +12,6 @@ namespace SamRab_04
 {
     public partial class Form1 : Form
     {
-        Transposition t;
 
         class Transposition
         {
@@ -74,10 +73,12 @@ namespace SamRab_04
                     for (int j = 0; j < key.Length; j++)
                         result += transposition[j];
                 }
-
                 return result;
             }
         }
+
+        Transposition t;
+
         public Form1()
         {
             InitializeComponent();
