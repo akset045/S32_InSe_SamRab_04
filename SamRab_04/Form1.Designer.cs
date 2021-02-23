@@ -1,4 +1,4 @@
-﻿namespace IfBs_SamRab_04
+﻿namespace SamRab_04
 {
     partial class Form1
     {
@@ -36,8 +36,8 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -103,6 +103,7 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "Зашифровать";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // groupBox1
             // 
@@ -117,18 +118,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Опции";
             // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.radioButton1.Location = new System.Drawing.Point(24, 46);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(124, 26);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Шифровать";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
@@ -140,6 +129,18 @@
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Дешифровать";
             this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.radioButton1.Location = new System.Drawing.Point(24, 46);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(124, 26);
+            this.radioButton1.TabIndex = 0;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Шифровать";
+            this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 

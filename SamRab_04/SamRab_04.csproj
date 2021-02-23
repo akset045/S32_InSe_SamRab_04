@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{0FFE227D-E771-41F6-8997-44533ED1F0EA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>IfBs_SamRab_04</RootNamespace>
-    <AssemblyName>IfBs_SamRab_04</AssemblyName>
+    <RootNamespace>SamRab_04</RootNamespace>
+    <AssemblyName>SamRab_04</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

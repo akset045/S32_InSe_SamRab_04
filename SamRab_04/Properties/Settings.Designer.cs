@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace IfBs_SamRab_04.Properties {
+namespace SamRab_04.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
